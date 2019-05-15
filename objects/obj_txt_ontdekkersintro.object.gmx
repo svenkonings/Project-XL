@@ -27,10 +27,10 @@
             <kind>1</kind>
             <string>i=0
 show[i]=false
-text[0]='What happened?'
-text[1]='You are a time traveler and the indians stole your time machine?'
-text[2]='I will help you retrieve it'
-text[3]=''
+txt[0]='What happened?'
+txt[1]='You are a time traveler and the indians stole your time machine?'
+txt[2]='I will help you retrieve it'
+txt[3]=''
 </string>
           </argument>
         </arguments>
@@ -131,7 +131,7 @@ text[3]=''
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>scr_textbox('Columbus',text[i]
+            <string>scr_textbox('Columbus',txt[i]
 ,show[i],c_white,c_black,0.8,'Press space to Continue!')depth=-9
 </string>
           </argument>
@@ -157,8 +157,8 @@ text[3]=''
             <kind>1</kind>
             <string>if show[i]=true
 {
-        if text[i]!=''{i+=1;pressed+=1}
-        if text[i]!=''{show[i]=true} else {show[i]=false}
+        if txt[i]!=''{i+=1;pressed+=1}
+        if txt[i]!=''{show[i]=true} else {show[i]=false}
         show[i-1]=false
 }
 </string>

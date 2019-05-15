@@ -27,11 +27,11 @@
             <kind>1</kind>
             <string>i=0
 show[i]=true
-text[0]='Are you alright?'
-text[1]='We did not think you would survive it'
-text[2]='You want to get back to your machine?'
-text[3]='If you help us kill some germans you may use our tank'
-text[4]=''
+txt[0]='Are you alright?'
+txt[1]='We did not think you would survive it'
+txt[2]='You want to get back to your machine?'
+txt[3]='If you help us kill some germans you may use our tank'
+txt[4]=''
 </string>
           </argument>
         </arguments>
@@ -78,7 +78,7 @@ text[4]=''
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>scr_textbox('French soldier',text[i]
+            <string>scr_textbox('French soldier',txt[i]
 ,show[i],c_white,c_black,0.8,'Press space to Continue!')depth=-9
 </string>
           </argument>
@@ -104,8 +104,8 @@ text[4]=''
             <kind>1</kind>
             <string>if show[i]=true
 {
-        if text[i]!=''{i+=1;}
-        if text[i]!=''{show[i]=true} else {show[i]=false}
+        if txt[i]!=''{i+=1;}
+        if txt[i]!=''{show[i]=true} else {show[i]=false}
         show[i-1]=false
 }
 </string>

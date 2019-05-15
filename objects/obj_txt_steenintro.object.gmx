@@ -27,9 +27,9 @@
             <kind>1</kind>
             <string>i=0
 show[i]=true
-text[0]='What are you doing in our town!?!'
-text[1]='GET OUT OF HERE!!!'
-text[2]=''
+txt[0]='What are you doing in our town!?!'
+txt[1]='GET OUT OF HERE!!!'
+txt[2]=''
 </string>
           </argument>
         </arguments>
@@ -130,7 +130,7 @@ text[2]=''
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>scr_textbox('Cavemen',text[i]
+            <string>scr_textbox('Cavemen',txt[i]
 ,show[i],c_white,c_black,0.8,'Press space to Continue!')depth=-9
 </string>
           </argument>
@@ -156,8 +156,8 @@ text[2]=''
             <kind>1</kind>
             <string>if show[i]=true
 {
-        if text[i]!=''{i+=1;pressed+=1}
-        if text[i]!=''{show[i]=true} else {show[i]=false}
+        if txt[i]!=''{i+=1;pressed+=1}
+        if txt[i]!=''{show[i]=true} else {show[i]=false}
         show[i-1]=false
 }
 </string>

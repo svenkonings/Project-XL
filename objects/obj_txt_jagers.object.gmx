@@ -27,10 +27,10 @@
             <kind>1</kind>
             <string>i=0
 show[i]=false
-text[0]='Hello there,'
-text[1]='You need help against the farmers?'
-text[2]='We will help you if you defeat the cave bear.'
-text[3]=''
+txt[0]='Hello there,'
+txt[1]='You need help against the farmers?'
+txt[2]='We will help you if you defeat the cave bear.'
+txt[3]=''
 </string>
           </argument>
         </arguments>
@@ -413,7 +413,7 @@ do_once=true
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>scr_textbox('Hunter',text[i]
+            <string>scr_textbox('Hunter',txt[i]
 ,show[i],c_white,c_black,0.8,'Press space to Continue!')depth=-9
 </string>
           </argument>
@@ -439,8 +439,8 @@ do_once=true
             <kind>1</kind>
             <string>if show[i]=true
 {
-        if text[i]!=''{i+=1;pressed+=1}
-        if text[i]!=''{show[i]=true} else {show[i]=false}
+        if txt[i]!=''{i+=1;pressed+=1}
+        if txt[i]!=''{show[i]=true} else {show[i]=false}
         show[i-1]=false
 
 }
