@@ -218,7 +218,9 @@
       <sprite>sprites\spr_fossiel</sprite>
       <sprite>sprites\spr_fossielen</sprite>
       <sprite>sprites\spr_grass</sprite>
+      <sprite>sprites\spr_grass_tile</sprite>
       <sprite>sprites\spr_grass_left</sprite>
+      <sprite>sprites\spr_grass_right</sprite>
       <sprite>sprites\spr_hooi</sprite>
       <sprite>sprites\spr_hooi_2</sprite>
       <sprite>sprites\spr_hooi_3</sprite>
@@ -383,7 +385,7 @@
       <object>objects\obj_fossiel</object>
       <object>objects\obj_fossielen</object>
       <object>objects\obj_grass</object>
-      <object>objects\obj_grass_1</object>
+      <object>objects\obj_grass_tile</object>
       <object>objects\obj_grass_left</object>
       <object>objects\obj_grass_right</object>
       <object>objects\obj_hooi</object>
