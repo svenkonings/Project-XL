@@ -213,11 +213,14 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>q=show_message_ext('How is the treaty that the member countries of the Central Powers signed called?','Treaty of Versailles','armistice agreements','Treaty of Lisbon')
-switch q
-{case 1: show_message('Wrong answer') room_goto(menu) break;
- case 2: show_message('Correct answer! U gain 1 extra live') lives+=1 room_goto(menu) break;
- case 3: show_message('Wrong answer') room_goto(menu)}
+            <string>//q = show_message_ext('How is the treaty that the member countries of the Central Powers signed called?','Treaty of Versailles','armistice agreements','Treaty of Lisbon')
+//switch q
+//{
+//case 1: show_message('Wrong answer') room_goto(menu) break;
+//case 2: show_message('Correct answer! U gain 1 extra live') lives+=1 room_goto(menu) break;
+//case 3: show_message('Wrong answer') room_goto(menu) break;
+//}
+
 </string>
           </argument>
         </arguments>
@@ -368,11 +371,14 @@ switch q
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>q=show_message_ext('How is the treaty that the member countries of the Central Powers signed called?','Treaty of Versailles','armistice agreements','Treaty of Lisbon')
-switch q
-{case 1: show_message('Wrong answer') room_goto(menu) break;
- case 2: show_message('Correct answer! U gain 1 extra live') lives+=1 room_goto(menu) break;
- case 3: show_message('Wrong answer') room_goto(menu)}
+            <string>//q = show_message_ext('How is the treaty that the member countries of the Central Powers signed called?','Treaty of Versailles','armistice agreements','Treaty of Lisbon')
+//switch q
+//{
+//case 1: show_message('Wrong answer') room_goto(menu) break;
+//case 2: show_message('Correct answer! U gain 1 extra live') lives+=1 room_goto(menu) break;
+//case 3: show_message('Wrong answer') room_goto(menu) break;
+//}
+
 </string>
           </argument>
         </arguments>

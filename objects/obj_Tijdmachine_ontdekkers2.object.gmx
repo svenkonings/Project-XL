@@ -161,11 +161,14 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>q=show_message_ext('What did Columbus do when he first met the Native Americans','gave them presents','enslaved them','traded recources')
-switch q
-{case 1: show_message('Correct answer! U gain 1 extra live') lives+=1 room_goto_next() break;
- case 2: show_message('Wrong answer!') room_goto_next() break;
- case 3: show_message('Wrong answer!') room_goto_next()}
+            <string>//q = show_message_ext('What did Columbus do when he first met the Native Americans','gave them presents','enslaved them','traded recources')
+//switch q
+//{
+//case 1: show_message('Correct answer! U gain 1 extra live') lives+=1 room_goto_next() break;
+//case 2: show_message('Wrong answer!') room_goto_next() break;
+//case 3: show_message('Wrong answer!') room_goto_next() break;
+//}
+
 </string>
           </argument>
         </arguments>
@@ -288,11 +291,14 @@ switch q
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>q=show_message_ext('What did Columbus do when he first arravid in America','He gave the indians presents','he enslaved the indians','he traded recources with the indians')
-switch q
-{case 1: show_message('Correct answer! U gain 1 extra live') lives+=1 room_goto_next() break;
- case 2: show_message('Wrong answer!') room_goto_next() break;
- case 3: show_message('Wrong answer!') room_goto_next()}
+            <string>//q = show_message_ext('What did Columbus do when he first arravid in America','He gave the indians presents','he enslaved the indians','he traded recources with the indians')
+//switch q
+//{
+//case 1: show_message('Correct answer! U gain 1 extra live') lives+=1 room_goto_next() break;
+//case 2: show_message('Wrong answer!') room_goto_next() break;
+//case 3: show_message('Wrong answer!') room_goto_next() break;
+//}
+
 </string>
           </argument>
         </arguments>

@@ -141,13 +141,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>q = show_message_ext('How long are the horns of the Triceratops?','17-18cm','10-12cm','28-30cm')
-switch q
-{
-case 1: show_message('Right answer!') lives +=1 room_goto_next() break
-case 2: show_message('Wrong answer!') room_goto_next() break
-case 3: show_message('Wrong answer!') room_goto_next() break
-}
+            <string>//q = show_message_ext('How long are the horns of the Triceratops?','17-18cm','10-12cm','28-30cm')
+//switch q
+//{
+//case 1: show_message('Right answer!') lives +=1 room_goto_next() break;
+//case 2: show_message('Wrong answer!') room_goto_next() break;
+//case 3: show_message('Wrong answer!') room_goto_next() break;
+//}
 
 </string>
           </argument>
@@ -271,13 +271,13 @@ case 3: show_message('Wrong answer!') room_goto_next() break
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>q = show_message_ext('How long are the horns of the Triceratops?','17-18cm','10-12cm','28-30cm')
-switch q
-{
-case 1: show_message('Right answer!') lives +=1 room_goto_next() break
-case 2: show_message('Wrong answer!') room_goto_next() break
-case 3: show_message('Wrong answer!') room_goto_next() break
-}
+            <string>//q = show_message_ext('How long are the horns of the Triceratops?','17-18cm','10-12cm','28-30cm')
+//switch q
+//{
+//case 1: show_message('Right answer!') lives +=1 room_goto_next() break;
+//case 2: show_message('Wrong answer!') room_goto_next() break;
+//case 3: show_message('Wrong answer!') room_goto_next() break;
+//}
 
 </string>
           </argument>
