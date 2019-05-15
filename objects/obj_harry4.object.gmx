@@ -329,8 +329,8 @@
             <kind>1</kind>
             <string>instance_deactivate_region(view_xview[0]-view_wview[0], 0, 3*view_wview[0], room_height, false, true);
 instance_activate_region(view_xview[0]-view_wview[0], 0, 3*view_wview[0], room_height, true);
-instance_activate_object(healthbar);
-instance_activate_object(enemyblock);
+instance_activate_object(obj_healthbar);
+instance_activate_object(obj_enemyblock);
 if global.two_p=true
 {instance_activate_region(view_xview[1]-view_wview[1], 0, 3*view_wview[1], room_height, true)}
 
@@ -355,7 +355,7 @@ if global.two_p=true
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (collision_rectangle(x+8,y+8,x+24,y+40,ladder,false,false))
+            <string>if (collision_rectangle(x+8,y+8,x+24,y+40,obj_ladder,false,false))
 {collision_ladder = true}
 else
 {collision_ladder = false}
@@ -379,7 +379,7 @@ else
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (collision_rectangle(x,y,x+32,y+40,water,false,false))
+            <string>if (collision_rectangle(x,y,x+32,y+40,obj_water,false,false))
 {collision_water = true}
 else
 {collision_water = false}

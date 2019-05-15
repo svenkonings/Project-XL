@@ -148,7 +148,7 @@
 //case 2: show_message('Wrong answer!') room_goto_next() break;
 //case 3: show_message('Wrong answer!') room_goto_next() break;
 //}
-
+room_goto_next();
 </string>
           </argument>
         </arguments>
@@ -278,7 +278,7 @@
 //case 2: show_message('Wrong answer!') room_goto_next() break;
 //case 3: show_message('Wrong answer!') room_goto_next() break;
 //}
-
+room_goto_next();
 </string>
           </argument>
         </arguments>

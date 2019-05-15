@@ -441,7 +441,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>target_distance = distance_to_object(ally)
+            <string>target_distance = distance_to_object(obj_ally)
 </string>
           </argument>
         </arguments>
@@ -970,7 +970,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>ally.x</string>
+            <string>obj_ally.x</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -1064,7 +1064,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>indiaanwalk_left</string>
+            <string>spr_indiaanwalk_left</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -1210,7 +1210,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>indiaanwalk_right</string>
+            <string>spr_indiaanwalk_right</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -1342,7 +1342,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>indiaanwalk_right</string>
+            <string>spr_indiaanwalk_right</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -1398,7 +1398,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>indiaanwalk_left</string>
+            <string>spr_indiaanwalk_left</string>
           </argument>
           <argument>
             <kind>4</kind>

@@ -463,12 +463,12 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>target_distance=distance_to_object(enemie)
-if distance_to_object(harry2)&gt;1
+            <string>target_distance=distance_to_object(obj_enemie)
+if distance_to_object(obj_harry2)&gt;1
 {change=false}
 else
 {change=true}
-nearest=instance_nearest(x,y,enemie)
+nearest=instance_nearest(x,y,obj_enemie)
 </string>
           </argument>
         </arguments>
@@ -845,7 +845,7 @@ nearest=instance_nearest(x,y,enemie)
           </argument>
           <argument>
             <kind>0</kind>
-            <string>jagerwalk_left</string>
+            <string>spr_jagerwalk_left</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -995,7 +995,7 @@ nearest=instance_nearest(x,y,enemie)
           </argument>
           <argument>
             <kind>0</kind>
-            <string>jagerwalk_right</string>
+            <string>spr_jagerwalk_right</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -1145,7 +1145,7 @@ nearest=instance_nearest(x,y,enemie)
           </argument>
           <argument>
             <kind>0</kind>
-            <string>jagerwalk_right</string>
+            <string>spr_jagerwalk_right</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -1201,7 +1201,7 @@ nearest=instance_nearest(x,y,enemie)
           </argument>
           <argument>
             <kind>0</kind>
-            <string>jagerwalk_left</string>
+            <string>spr_jagerwalk_left</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -1309,7 +1309,7 @@ nearest=instance_nearest(x,y,enemie)
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>harry2.y</string>
+            <string>obj_harry2.y</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -1455,7 +1455,7 @@ nearest=instance_nearest(x,y,enemie)
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>harry2.x-48</string>
+            <string>obj_harry2.x-48</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -1553,7 +1553,7 @@ nearest=instance_nearest(x,y,enemie)
           </argument>
           <argument>
             <kind>0</kind>
-            <string>jagerwalk_left</string>
+            <string>spr_jagerwalk_left</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -1619,7 +1619,7 @@ nearest=instance_nearest(x,y,enemie)
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>harry2.x-52</string>
+            <string>obj_harry2.x-52</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -1717,7 +1717,7 @@ nearest=instance_nearest(x,y,enemie)
           </argument>
           <argument>
             <kind>0</kind>
-            <string>jagerwalk_right</string>
+            <string>spr_jagerwalk_right</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -1815,7 +1815,7 @@ nearest=instance_nearest(x,y,enemie)
           </argument>
           <argument>
             <kind>0</kind>
-            <string>steenstil_right</string>
+            <string>spr_steenstil_right</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -1923,7 +1923,7 @@ nearest=instance_nearest(x,y,enemie)
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>harry2.x+20</string>
+            <string>obj_harry2.x+20</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -2021,7 +2021,7 @@ nearest=instance_nearest(x,y,enemie)
           </argument>
           <argument>
             <kind>0</kind>
-            <string>jagerwalk_left</string>
+            <string>spr_jagerwalk_left</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -2087,7 +2087,7 @@ nearest=instance_nearest(x,y,enemie)
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>harry2.x+16</string>
+            <string>obj_harry2.x+16</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -2185,7 +2185,7 @@ nearest=instance_nearest(x,y,enemie)
           </argument>
           <argument>
             <kind>0</kind>
-            <string>jagerwalk_right</string>
+            <string>spr_jagerwalk_right</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -2283,7 +2283,7 @@ nearest=instance_nearest(x,y,enemie)
           </argument>
           <argument>
             <kind>0</kind>
-            <string>steenstil_left</string>
+            <string>spr_steenstil_left</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -2429,12 +2429,12 @@ nearest=instance_nearest(x,y,enemie)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if other.sprite_index=farmerattack_right or farmerattack_left
+            <string>if other.sprite_index=spr_farmerattack_right or spr_farmerattack_left
 {invinsible=true
 alarm[0]=0.5*room_speed
-if sprite_index=jagerwalk_left or jagerattack_left
+if sprite_index=spr_jagerwalk_left or spr_jagerattack_left
 {hspeed=5}
-if sprite_index=jagerwalk_right or jagerattack_right
+if sprite_index=spr_jagerwalk_right or spr_jagerattack_right
 {hspeed=-5}}
 </string>
           </argument>

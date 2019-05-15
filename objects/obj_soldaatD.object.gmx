@@ -463,8 +463,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>target_distance = distance_to_object(ally)
-if instance_exists(ally)
+            <string>target_distance = distance_to_object(obj_ally)
+if instance_exists(obj_ally)
 {move=true}
 </string>
           </argument>
@@ -716,7 +716,7 @@ if instance_exists(ally)
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>ally.x</string>
+            <string>obj_ally.x</string>
           </argument>
           <argument>
             <kind>0</kind>

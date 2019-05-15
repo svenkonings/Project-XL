@@ -297,11 +297,11 @@
             <kind>1</kind>
             <string>if path_position &gt; 4/7
 {
-sprite_index=holebeerwalk_right
+sprite_index=spr_holebeerwalk_right
 }
 else
 {
-sprite_index=holebeerwalk_left
+sprite_index=spr_holebeerwalk_left
 }
 </string>
           </argument>
@@ -469,9 +469,9 @@ sprite_index=holebeerwalk_left
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>view_object[0]=harry2
+            <string>view_object[0]=obj_harry2
 if view_visible[1]=true
-{view_object[1]=barry2}
+{view_object[1]=obj_barry2}
 </string>
           </argument>
         </arguments>

@@ -75,7 +75,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if instance_exists(soldaatD)=false and instance_exists(enemietank)=false and instance_exists(enemieplane)=false
+            <string>if instance_exists(obj_soldaatD)=false and instance_exists(obj_enemietank)=false and instance_exists(obj_enemieplane)=false
 {next=true}
 </string>
           </argument>
@@ -220,7 +220,7 @@
 //case 2: show_message('Correct answer! U gain 1 extra live') lives+=1 room_goto(menu) break;
 //case 3: show_message('Wrong answer') room_goto(menu) break;
 //}
-
+room_goto(rm_menu);
 </string>
           </argument>
         </arguments>
@@ -378,7 +378,7 @@
 //case 2: show_message('Correct answer! U gain 1 extra live') lives+=1 room_goto(menu) break;
 //case 3: show_message('Wrong answer') room_goto(menu) break;
 //}
-
+room_goto(rm_menu);
 </string>
           </argument>
         </arguments>

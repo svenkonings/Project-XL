@@ -106,7 +106,7 @@ Eventually, the governments of both Germany and Austria-Hungary began to lose co
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>view_object[0]=plane
+            <string>view_object[0]=obj_plane
 view_xview[0]=1280
 view_yview[0]=960
 </string>
@@ -240,7 +240,7 @@ Eventually, the governments of both Germany and Austria-Hungary began to lose co
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>view_object[1]=plane
+            <string>view_object[1]=obj_plane
 view_xview[1]=1280
 view_yview[1]=960
 </string>

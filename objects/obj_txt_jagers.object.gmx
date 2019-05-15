@@ -101,9 +101,9 @@ text[3]=''
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if instance_exists(harry2)
+            <string>if instance_exists(obj_harry2)
 {
-if harry2.x&gt;txt_jagers.x and harry2.y&lt;640
+if obj_harry2.x&gt;obj_txt_jagers.x and obj_harry2.y&lt;640
 {
 if show[0]=false
 {
@@ -442,7 +442,7 @@ do_once=true
         if text[i]!=''{i+=1;pressed+=1}
         if text[i]!=''{show[i]=true} else {show[i]=false}
         show[i-1]=false
-        
+
 }
 </string>
           </argument>

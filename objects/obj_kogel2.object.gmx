@@ -25,11 +25,11 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>ally.x</string>
+            <string>obj_ally.x</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>ally.y</string>
+            <string>obj_ally.y</string>
           </argument>
           <argument>
             <kind>0</kind>

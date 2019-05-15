@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>instance_deactivate_region(view_xview[0]-view_wview[0], 0, 3*view_wview[0], room_height, false, true);
 instance_activate_region(view_xview[0]-view_wview[0], 0, 3*view_wview[0], room_height, true);
-instance_activate_object(healthbar);
+instance_activate_object(obj_healthbar);
 </string>
           </argument>
         </arguments>

@@ -429,7 +429,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>triwalk_right</string>
+            <string>spr_triwalk_right</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -527,7 +527,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>triwalk_left</string>
+            <string>spr_triwalk_left</string>
           </argument>
           <argument>
             <kind>4</kind>

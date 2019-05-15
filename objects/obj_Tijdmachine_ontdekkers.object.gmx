@@ -444,12 +444,12 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>with indiaan_fake
-{path_start(indiaan1,8,0,true)}
-with indiaan_fake2
-{path_start(indiaan2,8,0,true)}
-with indiaan_fake3
-{path_start(indiaan3,8,0,true)}
+            <string>with obj_indiaan_fake
+{path_start(pth_indiaan1,8,0,true)}
+with obj_indiaan_fake2
+{path_start(pth_indiaan2,8,0,true)}
+with obj_indiaan_fake3
+{path_start(pth_indiaan3,8,0,true)}
 </string>
           </argument>
         </arguments>
@@ -556,7 +556,7 @@ with indiaan_fake3
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>instance_exists(indiaan_fake)</string>
+            <string>instance_exists(obj_indiaan_fake)</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -848,7 +848,7 @@ with indiaan_fake3
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>sprite_index=indiaanattack_left
+            <string>sprite_index=spr_indiaanattack_left
 </string>
           </argument>
         </arguments>
@@ -883,8 +883,8 @@ with indiaan_fake3
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if indiaan_fake.sprite_index=indiaanattack_left
-{if indiaan_fake.image_index&gt;6
+            <string>if obj_indiaan_fake.sprite_index=spr_indiaanattack_left
+{if obj_indiaan_fake.image_index&gt;6
 {ko=true}}
 </string>
           </argument>
@@ -1094,9 +1094,9 @@ with indiaan_fake3
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if instance_exists(indiaan_fake)
-{x=indiaan_fake.x
-y=indiaan_fake.y}
+            <string>if instance_exists(obj_indiaan_fake)
+{x=obj_indiaan_fake.x
+y=obj_indiaan_fake.y}
 else
 {visible=false}
 </string>
@@ -1449,7 +1449,7 @@ else
           </argument>
           <argument>
             <kind>0</kind>
-            <string>indiaanjump_right</string>
+            <string>spr_indiaanjump_right</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -1547,7 +1547,7 @@ else
           </argument>
           <argument>
             <kind>0</kind>
-            <string>indiaanwalk_right</string>
+            <string>spr_indiaanwalk_right</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -1687,7 +1687,7 @@ else
           </argument>
           <argument>
             <kind>0</kind>
-            <string>indiaanjump_right</string>
+            <string>spr_indiaanjump_right</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -1785,7 +1785,7 @@ else
           </argument>
           <argument>
             <kind>0</kind>
-            <string>indiaanwalk_right</string>
+            <string>spr_indiaanwalk_right</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -1925,7 +1925,7 @@ else
           </argument>
           <argument>
             <kind>0</kind>
-            <string>indiaanjump_right</string>
+            <string>spr_indiaanjump_right</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -2023,7 +2023,7 @@ else
           </argument>
           <argument>
             <kind>0</kind>
-            <string>indiaanwalk_right</string>
+            <string>spr_indiaanwalk_right</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -2117,7 +2117,7 @@ else
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>instance_exists(columbus_fake)</string>
+            <string>instance_exists(obj_columbus_fake)</string>
           </argument>
           <argument>
             <kind>0</kind>

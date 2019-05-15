@@ -761,9 +761,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>view_object[0]=harry2
+            <string>view_object[0]=obj_harry2
 if global.two_p=true
-{view_object[1]=barry2}
+{view_object[1]=obj_barry2}
 </string>
           </argument>
         </arguments>
@@ -1062,9 +1062,9 @@ if global.two_p=true
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>view_object[0]=harry2
+            <string>view_object[0]=obj_harry2
 if global.two_p=true
-{view_object[1]=barry2}
+{view_object[1]=obj_barry2}
 </string>
           </argument>
         </arguments>

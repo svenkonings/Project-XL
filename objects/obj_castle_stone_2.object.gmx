@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if distance_to_object(T_rex)&lt;8
+            <string>if distance_to_object(obj_T_rex)&lt;8
 {
 solid=0
 }

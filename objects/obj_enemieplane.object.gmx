@@ -283,8 +283,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>target_distance = distance_to_object(ally)
-if instance_exists(ally)
+            <string>target_distance = distance_to_object(obj_ally)
+if instance_exists(obj_ally)
 {move=true}
 </string>
           </argument>
@@ -582,7 +582,7 @@ if instance_exists(ally)
           </argument>
           <argument>
             <kind>0</kind>
-            <string>plane_right</string>
+            <string>spr_plane_right</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -680,7 +680,7 @@ if instance_exists(ally)
           </argument>
           <argument>
             <kind>0</kind>
-            <string>plane_left</string>
+            <string>spr_plane_left</string>
           </argument>
           <argument>
             <kind>4</kind>

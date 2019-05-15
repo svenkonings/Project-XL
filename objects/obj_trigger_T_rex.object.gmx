@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>distance_to_object(harry)</string>
+            <string>distance_to_object(obj_harry)</string>
           </argument>
           <argument>
             <kind>0</kind>

@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if instance_exists(Holebeer)
+            <string>if instance_exists(obj_Holebeer)
 {alive=1}
 else
 {alive=0}
@@ -77,19 +77,19 @@ else
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>Holebeer.x</string>
+            <string>obj_Holebeer.x</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>Holebeer.y</string>
+            <string>obj_Holebeer.y</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>Holebeer.x+Holebeer.hp*10</string>
+            <string>obj_Holebeer.x+obj_Holebeer.hp*10</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>Holebeer.y-16</string>
+            <string>obj_Holebeer.y-16</string>
           </argument>
           <argument>
             <kind>4</kind>

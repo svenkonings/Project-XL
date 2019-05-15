@@ -25,11 +25,11 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>columbus.nearest.x+16</string>
+            <string>obj_columbus.nearest.x+16</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>columbus.nearest.y+8</string>
+            <string>obj_columbus.nearest.y+8</string>
           </argument>
           <argument>
             <kind>0</kind>

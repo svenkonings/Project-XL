@@ -75,7 +75,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>instance_exists(farmer)</string>
+            <string>instance_exists(obj_farmer)</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -196,7 +196,7 @@
 //case 2: show_message('Correct answer! U gain 1 extra live') lives+=1 room_goto_next() break;
 //case 3: show_message('Wrong answer') room_goto_next() break;
 //}
-
+room_goto_next();
 </string>
           </argument>
         </arguments>
@@ -233,7 +233,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>instance_exists(farmer)</string>
+            <string>instance_exists(obj_farmer)</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -354,7 +354,7 @@
 //case 2: show_message('Correct answer! U gain 1 extra live') lives+=1 room_goto_next() break;
 //case 3: show_message('Wrong answer') room_goto_next() break;
 //}
-
+room_goto_next();
 </string>
           </argument>
         </arguments>

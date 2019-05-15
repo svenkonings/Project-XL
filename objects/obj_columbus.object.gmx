@@ -375,7 +375,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>nearest=instance_nearest(columbus.x,columbus.y,enemie)
+            <string>nearest=instance_nearest(obj_columbus.x,obj_columbus.y,obj_enemie)
 </string>
           </argument>
         </arguments>
@@ -486,8 +486,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>target_distance=distance_to_object(enemie)
-if distance_to_object(harry3)&gt;8
+            <string>target_distance=distance_to_object(obj_enemie)
+if distance_to_object(obj_harry3)&gt;8
 {change=false}
 else
 {change=true}
@@ -671,7 +671,7 @@ else
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>harry3.y-16</string>
+            <string>obj_harry3.y-16</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -817,7 +817,7 @@ else
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>harry3.x-32</string>
+            <string>obj_harry3.x-32</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -915,7 +915,7 @@ else
           </argument>
           <argument>
             <kind>0</kind>
-            <string>columbuswalk_left</string>
+            <string>spr_columbuswalk_left</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -981,7 +981,7 @@ else
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>harry3.x-36</string>
+            <string>obj_harry3.x-36</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -1079,7 +1079,7 @@ else
           </argument>
           <argument>
             <kind>0</kind>
-            <string>columbuswalk_right</string>
+            <string>spr_columbuswalk_right</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -1177,7 +1177,7 @@ else
           </argument>
           <argument>
             <kind>0</kind>
-            <string>harrystil_right</string>
+            <string>spr_harrystil_right</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -1285,7 +1285,7 @@ else
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>harry3.x+4</string>
+            <string>obj_harry3.x+4</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -1383,7 +1383,7 @@ else
           </argument>
           <argument>
             <kind>0</kind>
-            <string>columbuswalk_left</string>
+            <string>spr_columbuswalk_left</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -1449,7 +1449,7 @@ else
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>harry3.x</string>
+            <string>obj_harry3.x</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -1547,7 +1547,7 @@ else
           </argument>
           <argument>
             <kind>0</kind>
-            <string>columbuswalk_right</string>
+            <string>spr_columbuswalk_right</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -1645,7 +1645,7 @@ else
           </argument>
           <argument>
             <kind>0</kind>
-            <string>harrystil_left</string>
+            <string>spr_harrystil_left</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -1771,9 +1771,9 @@ else
             <kind>1</kind>
             <string>invinsible=true
 alarm[0]=0.5*room_speed
-if sprite_index=columbuswalk_left
+if sprite_index=spr_columbuswalk_left
 {hspeed=5}
-if sprite_index=columbuswalk_right
+if sprite_index=spr_columbuswalk_right
 {hspeed=-5}
 </string>
           </argument>

@@ -859,7 +859,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>T_rexjump_left</string>
+            <string>spr_T_rexjump_left</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -939,7 +939,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>T_rexjump_right</string>
+            <string>spr_T_rexjump_right</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -1193,7 +1193,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>T_rexwalk_right</string>
+            <string>spr_T_rexwalk_right</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -1501,7 +1501,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>harry.x</string>
+            <string>obj_harry.x</string>
           </argument>
           <argument>
             <kind>0</kind>

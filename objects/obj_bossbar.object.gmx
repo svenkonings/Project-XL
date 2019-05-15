@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if instance_exists(T_rex)
+            <string>if instance_exists(obj_T_rex)
 {alive=1}
 else
 {alive=0}
@@ -77,19 +77,19 @@ else
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>T_rex.x</string>
+            <string>obj_T_rex.x</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>T_rex.y</string>
+            <string>obj_T_rex.y</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>T_rex.x+T_rex.hp*10</string>
+            <string>obj_T_rex.x+obj_T_rex.hp*10</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>T_rex.y-16</string>
+            <string>obj_T_rex.y-16</string>
           </argument>
           <argument>
             <kind>4</kind>

@@ -424,7 +424,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>T_rex_eat</string>
+            <string>spr_T_rex_eat</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -741,8 +741,8 @@
             <string>view_hborder[0] = 312
 if global.two_p=true
 {view_hborder[1]=312}
-if sprite_index = harrywalk_right
-{with Tijdmachine_prehistorie{instance_destroy();}}
+if sprite_index=spr_harrywalk_right
+{with obj_Tijdmachine_prehistorie{instance_destroy();}}
 </string>
           </argument>
         </arguments>

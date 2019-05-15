@@ -353,7 +353,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>target_distance=distance_to_object(ally)
+            <string>target_distance=distance_to_object(obj_ally)
 </string>
           </argument>
         </arguments>
@@ -584,7 +584,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>ally.y</string>
+            <string>obj_ally.y</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -688,7 +688,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>ally.x</string>
+            <string>obj_ally.x</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -786,7 +786,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>farmerwalk_left</string>
+            <string>spr_farmerwalk_left</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -936,7 +936,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>farmerwalk_right</string>
+            <string>spr_farmerwalk_right</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -1086,7 +1086,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>farmerwalk_right</string>
+            <string>spr_farmerwalk_right</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -1142,7 +1142,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>farmerwalk_left</string>
+            <string>spr_farmerwalk_left</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -1248,9 +1248,9 @@
             <kind>1</kind>
             <string>hp-=1
 alarm[0]=0.5*room_speed
-if sprite_index=farmerwalk_left or farmerattack_left
+if sprite_index=spr_farmerwalk_left or spr_farmerattack_left
 {hspeed=10}
-if sprite_index=farmerwalk_right or farmerattack_right
+if sprite_index=spr_farmerwalk_right or spr_farmerattack_right
 {hspeed=-10}
 </string>
           </argument>
@@ -1302,13 +1302,13 @@ if sprite_index=farmerwalk_right or farmerattack_right
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if other.sprite_index=jagerattack_right or jagerattack_left
+            <string>if other.sprite_index=spr_jagerattack_right or spr_jagerattack_left
 {hp-=1
 invinsible=true
 alarm[0]=0.5*room_speed
-if sprite_index=farmerwalk_left or farmerattack_left
+if sprite_index=spr_farmerwalk_left or spr_farmerattack_left
 {hspeed=10}
-if sprite_index=farmerwalk_right or farmerattack_right
+if sprite_index=spr_farmerwalk_right or spr_farmerattack_right
 {hspeed=-10}}
 </string>
           </argument>

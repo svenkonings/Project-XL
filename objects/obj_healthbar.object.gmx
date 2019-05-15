@@ -307,7 +307,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>instance_exists(harry)</string>
+            <string>instance_exists(obj_harry)</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -377,7 +377,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>distance_to_object(raptor)</string>
+            <string>distance_to_object(obj_raptor)</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -517,7 +517,7 @@ location of habitat= Central Asia')
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>distance_to_object(pterodactyl)</string>
+            <string>distance_to_object(obj_pterodactyl)</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -653,7 +653,7 @@ Diet: Piscivorous')
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>distance_to_object(triceratops)</string>
+            <string>distance_to_object(obj_triceratops)</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -722,7 +722,7 @@ Diet: Piscivorous')
             <string>show_message('The Triceratops:
 The Triceratops lived in the  Late Cretaceous Period, from 95-65 mya.
 It had a large bony frill and three horns on its large four-legged body.
-Triceratops is the largest horned dinosaur. 
+Triceratops is the largest horned dinosaur.
 his dinosaur head was built like an enormous shield, with a thick, bony frill surrounding its neck.
 The head measured about 17-18cm long.
 Above each eye was a long, pointed horn, about 71cm, with a shorter horn on the nose.
@@ -795,7 +795,7 @@ Diet = Herbivorous')
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>distance_to_object(mosasaurus)</string>
+            <string>distance_to_object(obj_mosasaurus)</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -933,7 +933,7 @@ Diet = Carnivorous')
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>distance_to_object(plesiosaurus)</string>
+            <string>distance_to_object(obj_plesiosaurus)</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -1057,7 +1057,7 @@ Diet: Carnivore')
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>instance_exists(harry4)</string>
+            <string>instance_exists(obj_harry4)</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -1127,7 +1127,7 @@ Diet: Carnivore')
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>distance_to_object(soldaatD)</string>
+            <string>distance_to_object(obj_soldaatD)</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -1262,7 +1262,7 @@ The fronts in the east also gradually locked into place.')
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>distance_to_object(enemietank)</string>
+            <string>distance_to_object(obj_enemietank)</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -1394,7 +1394,7 @@ Though soldiers died by the millions in brutal conditions, neither side had any 
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>distance_to_object(TijdmachineWO1_exit)</string>
+            <string>distance_to_object(obj_TijdmachineWO1_exit)</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -1513,7 +1513,7 @@ Germany, under the Treaty of Versailles, was severely punished with hefty econom
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>instance_exists(harry3)</string>
+            <string>instance_exists(obj_harry3)</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -1583,7 +1583,7 @@ Germany, under the Treaty of Versailles, was severely punished with hefty econom
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>distance_to_object(indiaan)</string>
+            <string>distance_to_object(obj_indiaan)</string>
           </argument>
           <argument>
             <kind>0</kind>

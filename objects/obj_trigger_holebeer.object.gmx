@@ -75,7 +75,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if instance_exists(harry2)
+            <string>if instance_exists(obj_harry2)
 {trigger=true}
 </string>
           </argument>
@@ -139,7 +139,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>harry2.x</string>
+            <string>obj_harry2.x</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -167,7 +167,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>harry2.y</string>
+            <string>obj_harry2.y</string>
           </argument>
           <argument>
             <kind>0</kind>

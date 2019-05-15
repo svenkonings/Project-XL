@@ -257,16 +257,16 @@
             <kind>1</kind>
             <string>instance_deactivate_region(view_xview[0]-view_wview[0], 0, 3*view_wview[0], room_height, false, true);
 instance_activate_region(view_xview[0]-view_wview[0], 0, 3*view_wview[0], room_height, true);
-instance_activate_object(healthbar);
-instance_activate_object(enemyblock);
+instance_activate_object(obj_healthbar);
+instance_activate_object(obj_enemyblock);
 if richting&lt;=90
-{sprite_index=plane_right;
+{sprite_index=spr_plane_right;
 image_angle=richting;}
 if richting&gt;90 and richting&lt;270
-{sprite_index=plane_left;
+{sprite_index=spr_plane_left;
 image_angle=richting-180}
 if richting&gt;=270
-{sprite_index=plane_right;
+{sprite_index=spr_plane_right;
 image_angle=richting;}
 if keyboard_check(vk_up)=true
 {if accel&lt;12
@@ -713,7 +713,7 @@ if richting=357
           </argument>
           <argument>
             <kind>0</kind>
-            <string>plane_right</string>
+            <string>spr_plane_right</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -761,7 +761,7 @@ if richting=357
           </argument>
           <argument>
             <kind>0</kind>
-            <string>plane_left</string>
+            <string>spr_plane_left</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -1425,7 +1425,7 @@ if richting=357
           </argument>
           <argument>
             <kind>0</kind>
-            <string>plane_right</string>
+            <string>spr_plane_right</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -1477,7 +1477,7 @@ if richting=357
           </argument>
           <argument>
             <kind>0</kind>
-            <string>plane_left</string>
+            <string>spr_plane_left</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -1585,7 +1585,7 @@ if richting=357
           </argument>
           <argument>
             <kind>0</kind>
-            <string>plane_right</string>
+            <string>spr_plane_right</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -1637,7 +1637,7 @@ if richting=357
           </argument>
           <argument>
             <kind>0</kind>
-            <string>plane_left</string>
+            <string>spr_plane_left</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -1801,7 +1801,7 @@ else
           </argument>
           <argument>
             <kind>0</kind>
-            <string>plane_right</string>
+            <string>spr_plane_right</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -1853,7 +1853,7 @@ else
           </argument>
           <argument>
             <kind>0</kind>
-            <string>plane_left</string>
+            <string>spr_plane_left</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -1961,7 +1961,7 @@ else
           </argument>
           <argument>
             <kind>0</kind>
-            <string>plane_right</string>
+            <string>spr_plane_right</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -2013,7 +2013,7 @@ else
           </argument>
           <argument>
             <kind>0</kind>
-            <string>plane_left</string>
+            <string>spr_plane_left</string>
           </argument>
           <argument>
             <kind>4</kind>

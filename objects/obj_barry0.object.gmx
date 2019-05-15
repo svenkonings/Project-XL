@@ -271,7 +271,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (collision_rectangle(x+8,y+8,x+24,y+40,ladder,false,false))
+            <string>if (collision_rectangle(x+8,y+8,x+24,y+40,obj_ladder,false,false))
 {collision_ladder = true}
 else
 {collision_ladder = false}
@@ -295,7 +295,7 @@ else
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (collision_rectangle(x,y,x+32,y+40,water,false,false))
+            <string>if (collision_rectangle(x,y,x+32,y+40,obj_water,false,false))
 {collision_water = true}
 else
 {collision_water = false}
