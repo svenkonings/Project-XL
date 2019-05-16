@@ -266,6 +266,7 @@
   </paths>
   <scripts name="scripts">
     <script>scripts\scr_textbox.gml</script>
+    <script>scripts\scr_region.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fn_message_end</font>
@@ -463,6 +464,8 @@
       <object>objects\obj_TijdmachineWO1_exit</object>
       <object>objects\obj_trigger_holebeer</object>
       <object>objects\obj_trigger_T_rex</object>
+      <object>objects\obj_music</object>
+      <object>objects\obj_region</object>
     </objects>
   </objects>
   <rooms name="rooms">
