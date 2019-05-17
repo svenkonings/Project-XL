@@ -30,7 +30,7 @@ if changed
     scr_instance_deactivate_region(left, top, right, bottom, false);
     scr_instance_activate_region(left, top, right, bottom, true);
     scr_instance_activate_region(left2p, top2p, right2p, bottom2p, true);
-    scr_instance_activate_objects(true);
+    scr_instance_activate_objects();
     global.left = left;
     global.top = top;
     global.right = right;

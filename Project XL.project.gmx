@@ -332,7 +332,7 @@
       <object>objects\obj_harry3</object>
       <object>objects\obj_harry4</object>
       <object>objects\obj_harry5</object>
-      <object>objects\obj_healthbar</object>
+      <object>objects\obj_controller</object>
       <object>objects\obj_plane</object>
       <object>objects\obj_speerdamage</object>
       <object>objects\obj_Steen</object>
@@ -455,7 +455,6 @@
       <object>objects\obj_kogel3</object>
       <object>objects\obj_kogel4</object>
       <object>objects\obj_plane_fake</object>
-      <object>objects\obj_resolutie</object>
       <object>objects\obj_Rockfall</object>
       <object>objects\obj_soldaatF_fake</object>
       <object>objects\obj_T_rex_fake</object>
@@ -472,8 +471,6 @@
       <object>objects\obj_TijdmachineWO1_exit</object>
       <object>objects\obj_trigger_holebeer</object>
       <object>objects\obj_trigger_T_rex</object>
-      <object>objects\obj_music</object>
-      <object>objects\obj_region</object>
     </objects>
   </objects>
   <rooms name="rooms">

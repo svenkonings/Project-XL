@@ -8,7 +8,7 @@ if global.new_room
 {
     scr_instance_deactivate_region(left, top, right, bottom, false);
     scr_instance_activate_region(left, top, right, bottom, true);
-    scr_instance_activate_objects(true);
+    scr_instance_activate_objects();
     global.new_room = false;
     global.left = left;
     global.top = top;
@@ -59,7 +59,7 @@ else
     
     if changed
     {
-        scr_instance_activate_objects(false);
+        scr_instance_activate_objects();
     }
     
     global.left = left;
