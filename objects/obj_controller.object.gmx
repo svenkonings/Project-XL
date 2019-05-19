@@ -2161,19 +2161,19 @@ They made many of them work as slaves.')
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>view_xview[0]+8</string>
+            <string>view_xview[view_current]+8</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>view_yview[0]+8</string>
+            <string>view_yview[view_current]+8</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>view_xview[0]+160</string>
+            <string>view_xview[view_current]+160</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>view_yview[0]+20</string>
+            <string>view_yview[view_current]+20</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -2201,11 +2201,11 @@ They made many of them work as slaves.')
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>view_xview[0]+view_wview[0]-40</string>
+            <string>view_xview[view_current]+view_wview[view_current]-40</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>view_yview[0]+8</string>
+            <string>view_yview[view_current]+8</string>
           </argument>
           <argument>
             <kind>1</kind>
@@ -2233,11 +2233,11 @@ They made many of them work as slaves.')
           </argument>
           <argument>
             <kind>0</kind>
-            <string>view_xview[0]+view_wview[0]-24</string>
+            <string>view_xview[view_current]+view_wview[view_current]-24</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>view_yview[0]+8</string>
+            <string>view_yview[view_current]+8</string>
           </argument>
           <argument>
             <kind>0</kind>
