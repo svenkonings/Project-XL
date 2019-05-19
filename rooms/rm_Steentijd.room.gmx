@@ -5733,8 +5733,8 @@
     <instance objName="obj_dirt_1" x="6912" y="768" name="inst_2032F5A3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_dirt_1" x="6880" y="768" name="inst_2418410E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_dirt_1" x="6976" y="768" name="inst_F8EB43D1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_castle_stone_2" x="7200" y="608" name="inst_8C29BC83" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_castle_stone_2" x="7168" y="608" name="inst_E967E037" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_castle_stone" x="7200" y="608" name="inst_8C29BC83" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_castle_stone" x="7168" y="608" name="inst_E967E037" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_dirt_1" x="3744" y="768" name="inst_E6C2BF6E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_dirt_1" x="3776" y="768" name="inst_6320CBAD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_dirt_1" x="3776" y="800" name="inst_3B2BCDDB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -5754,15 +5754,15 @@
     <instance objName="obj_dirt_1" x="3744" y="992" name="inst_3140E70D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_dirt_1" x="3744" y="1024" name="inst_B6E8CEFE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_dirt_1" x="3776" y="1024" name="inst_283175FF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_castle_stone_2" x="4000" y="1248" name="inst_24266FA0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_castle_stone_2" x="4352" y="1152" name="inst_62958F47" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_castle_stone_2" x="4480" y="1152" name="inst_5AE24BE3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_castle_stone_2" x="4640" y="1152" name="inst_A1271520" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_castle_stone_2" x="4768" y="1152" name="inst_4273BF03" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_castle_stone_2" x="4896" y="1152" name="inst_6C4BF3DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_castle_stone_2" x="4160" y="1088" name="inst_B413BC28" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_castle_stone_2" x="4448" y="1088" name="inst_DBB82A1D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_castle_stone_2" x="4416" y="1120" name="inst_E73B7C77" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_castle_stone_notsolid" x="4000" y="1248" name="inst_24266FA0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_castle_stone" x="4352" y="1152" name="inst_62958F47" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_castle_stone" x="4480" y="1152" name="inst_5AE24BE3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_castle_stone" x="4640" y="1152" name="inst_A1271520" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_castle_stone" x="4768" y="1152" name="inst_4273BF03" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_castle_stone" x="4896" y="1152" name="inst_6C4BF3DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_castle_stone" x="4160" y="1088" name="inst_B413BC28" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_castle_stone" x="4448" y="1088" name="inst_DBB82A1D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_castle_stone" x="4416" y="1120" name="inst_E73B7C77" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_vine_notsolid" x="4000" y="1248" name="inst_D7DC738C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_vine_notsolid" x="4000" y="1280" name="inst_D2B09F4B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_vine_notsolid" x="4000" y="1312" name="inst_AF6A0628" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -5801,8 +5801,8 @@
     <instance objName="obj_vine_notsolid" x="4896" y="1216" name="inst_AF1D40B5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_vine_notsolid" x="4896" y="1248" name="inst_746E1647" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_vine_notsolid" x="4896" y="1280" name="inst_556C6B7D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_castle_stone_2" x="4576" y="1568" name="inst_45FEA9CF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_castle_stone_2" x="4768" y="1568" name="inst_07311EFD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_castle_stone" x="4576" y="1568" name="inst_45FEA9CF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_castle_stone" x="4768" y="1568" name="inst_07311EFD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_vine_notsolid" x="5984" y="1344" name="inst_A52C098B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_vine_notsolid" x="5984" y="1312" name="inst_32070A80" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_vine_notsolid" x="5984" y="1280" name="inst_8D122E35" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -5816,7 +5816,7 @@
     <instance objName="obj_vine_notsolid" x="5984" y="1056" name="inst_4EDDBD04" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_vine_notsolid" x="5984" y="1088" name="inst_CD37F93F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_vine_notsolid" x="5984" y="1120" name="inst_3C9B94E3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_castle_stone_2" x="5728" y="1120" name="inst_276EB7EB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_castle_stone" x="5728" y="1120" name="inst_276EB7EB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_castle_stone" x="3584" y="992" name="inst_873D1962" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_castle_stone" x="3616" y="992" name="inst_9D4AB183" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_castle_stone" x="3648" y="992" name="inst_FD4ADC37" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
