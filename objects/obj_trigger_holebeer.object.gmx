@@ -75,8 +75,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if instance_exists(obj_harry2)
-{trigger=true}
+            <string>trigger = instance_exists(obj_harry2) || instance_exists(obj_barry2)
 </string>
           </argument>
         </arguments>
@@ -133,13 +132,13 @@
         <exetype>1</exetype>
         <functionname>action_if_variable</functionname>
         <codestring></codestring>
-        <whoName>self</whoName>
+        <whoName>obj_ally</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>obj_harry2.x</string>
+            <string>x</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -161,13 +160,13 @@
         <exetype>1</exetype>
         <functionname>action_if_variable</functionname>
         <codestring></codestring>
-        <whoName>self</whoName>
+        <whoName>obj_ally</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>obj_harry2.y</string>
+            <string>y</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -237,39 +236,15 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>show_message('The Cave Bear:
-The cave bear was a species of bear that lived in Europe during the Pleistocene and became extinct at about 27,500 years ago.
-this species spent more time in caves than the brown bear, which only uses caves for hibernation.
-The cave bear had a very broad, domed skull with a steep forehead.
-Its stout body had long thighs, massive shins and in-turning feet, making it similar to the brown bear but with the size of a polar bear.
-The average weight for males was 400–500 kilograms.')
-</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
             <string>view_xview[0]=8256
 view_yview[0]=704
 view_object[0]=-1
-if view_visible[1]=true
-{view_xview[1]=8256
-view_yview[1]=704
-view_object[1]=-1}
+if global.two_p=true
+{
+    view_visible[1] = false
+    view_hview[0] = 480
+    view_hport[0] = 960
+}
 </string>
           </argument>
         </arguments>
@@ -483,6 +458,32 @@ view_object[1]=-1}
           <argument>
             <kind>0</kind>
             <string>false</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>show_message('The Cave Bear:
+The cave bear was a species of bear that lived in Europe during the Pleistocene and became extinct at about 27,500 years ago.
+this species spent more time in caves than the brown bear, which only uses caves for hibernation.
+The cave bear had a very broad, domed skull with a steep forehead.
+Its stout body had long thighs, massive shins and in-turning feet, making it similar to the brown bear but with the size of a polar bear.
+The average weight for males was 400–500 kilograms.')
+</string>
           </argument>
         </arguments>
       </action>

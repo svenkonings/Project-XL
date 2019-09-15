@@ -470,8 +470,12 @@ sprite_index=spr_holebeerwalk_left
           <argument>
             <kind>1</kind>
             <string>view_object[0]=obj_harry2
-if view_visible[1]=true
-{view_object[1]=obj_barry2}
+if global.two_p=true
+{
+    view_hview[0] = 240
+    view_hport[0] = 480
+    view_visible[1] = true
+}
 </string>
           </argument>
         </arguments>

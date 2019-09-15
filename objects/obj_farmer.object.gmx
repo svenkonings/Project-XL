@@ -354,6 +354,7 @@
           <argument>
             <kind>1</kind>
             <string>target_distance=distance_to_object(obj_ally)
+nearest=instance_nearest(x,y,obj_ally)
 </string>
           </argument>
         </arguments>
@@ -584,7 +585,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>obj_ally.y</string>
+            <string>nearest.y</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -688,7 +689,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>obj_ally.x</string>
+            <string>nearest.x</string>
           </argument>
           <argument>
             <kind>0</kind>

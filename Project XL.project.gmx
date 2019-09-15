@@ -277,6 +277,7 @@
     <script>scripts\scr_instance_activate_objects.gml</script>
     <script>scripts\scr_needs_enemyblock.gml</script>
     <script>scripts\scr_needs_invisible.gml</script>
+    <script>scripts\scr_cull_2p.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fn_message_end</font>
@@ -456,6 +457,8 @@
       <object>objects\obj_kogel2</object>
       <object>objects\obj_kogel3</object>
       <object>objects\obj_kogel4</object>
+      <object>objects\obj_kogel4_left</object>
+      <object>objects\obj_kogel4_right</object>
       <object>objects\obj_plane_fake</object>
       <object>objects\obj_Rockfall</object>
       <object>objects\obj_soldaatF_fake</object>

@@ -25,6 +25,30 @@
         <arguments>
           <argument>
             <kind>1</kind>
+            <string>debug</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>true</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
             <string>raptormessage</string>
           </argument>
           <argument>
@@ -265,7 +289,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>var i;
+            <string>global.deactivated_instances = ds_list_create();
+var i;
 for (i = 7; i &gt;= 0; i -= 1)
 {
     surf[i] = -1;
@@ -294,18 +319,10 @@ for (i = 7; i &gt;= 0; i -= 1)
             <kind>1</kind>
             <string>if !scr_view_no_follow() &amp;&amp; !scr_view_boss_camera()
 {
-    if global.two_p
+    if view_visible[1]
     {
-        scr_region_2p(
-            view_xview[0]-view_wview[0],
-            view_yview[0]-view_hview[0],
-            view_xview[0]+2*view_wview[0],
-            view_yview[0]+2*view_hview[0],
-            view_xview[1]-view_wview[1],
-            view_yview[1]-view_hview[1],
-            view_xview[1]+2*view_wview[1],
-            view_yview[1]+2*view_hview[1]
-        );
+//        scr_region_2p(view_xview[0]-view_wview[0],view_yview[0]-view_hview[0],view_xview[0]+2*view_wview[0],view_yview[0]+2*view_hview[0],view_xview[1]-view_wview[1],view_yview[1]-view_hview[1],view_xview[1]+2*view_wview[1],view_yview[1]+2*view_hview[1]);
+        scr_cull_2p();
     }
     else
     {
@@ -403,7 +420,7 @@ for (i = 7; i &gt;= 0; i -= 1)
         <exetype>1</exetype>
         <functionname>action_if_variable</functionname>
         <codestring></codestring>
-        <whoName>obj_harry</whoName>
+        <whoName>obj_ally</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
@@ -543,7 +560,7 @@ location of habitat= Central Asia')
         <exetype>1</exetype>
         <functionname>action_if_variable</functionname>
         <codestring></codestring>
-        <whoName>obj_harry</whoName>
+        <whoName>obj_ally</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
@@ -679,7 +696,7 @@ Diet: Piscivorous')
         <exetype>1</exetype>
         <functionname>action_if_variable</functionname>
         <codestring></codestring>
-        <whoName>obj_harry</whoName>
+        <whoName>obj_ally</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
@@ -821,7 +838,7 @@ Diet = Herbivorous')
         <exetype>1</exetype>
         <functionname>action_if_variable</functionname>
         <codestring></codestring>
-        <whoName>obj_harry</whoName>
+        <whoName>obj_ally</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
@@ -959,7 +976,7 @@ Diet = Carnivorous')
         <exetype>1</exetype>
         <functionname>action_if_variable</functionname>
         <codestring></codestring>
-        <whoName>obj_harry</whoName>
+        <whoName>obj_ally</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
@@ -1153,7 +1170,7 @@ Diet: Carnivore')
         <exetype>1</exetype>
         <functionname>action_if_variable</functionname>
         <codestring></codestring>
-        <whoName>obj_harry</whoName>
+        <whoName>obj_ally</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
@@ -1288,7 +1305,7 @@ The fronts in the east also gradually locked into place.')
         <exetype>1</exetype>
         <functionname>action_if_variable</functionname>
         <codestring></codestring>
-        <whoName>obj_harry</whoName>
+        <whoName>obj_ally</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
@@ -1420,7 +1437,7 @@ Though soldiers died by the millions in brutal conditions, neither side had any 
         <exetype>1</exetype>
         <functionname>action_if_variable</functionname>
         <codestring></codestring>
-        <whoName>obj_harry</whoName>
+        <whoName>obj_ally</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
@@ -1609,7 +1626,7 @@ Germany, under the Treaty of Versailles, was severely punished with hefty econom
         <exetype>1</exetype>
         <functionname>action_if_variable</functionname>
         <codestring></codestring>
-        <whoName>obj_harry</whoName>
+        <whoName>obj_ally</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
@@ -1741,7 +1758,7 @@ But he also claimed their islands for Spain!')
         <exetype>1</exetype>
         <functionname>action_if_variable</functionname>
         <codestring></codestring>
-        <whoName>obj_harry3</whoName>
+        <whoName>obj_ally</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
@@ -1860,6 +1877,48 @@ They made many of them work as slaves.')
       </action>
       <action>
         <libid>1</libid>
+        <id>612</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>-1</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_if_variable</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>debug</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>false</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>422</id>
+        <kind>1</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+      <action>
+        <libid>1</libid>
         <id>711</id>
         <kind>0</kind>
         <userelative>-1</userelative>
@@ -1887,6 +1946,20 @@ They made many of them work as slaves.')
         <useapplyto>0</useapplyto>
         <exetype>1</exetype>
         <functionname>action_current_room</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>424</id>
+        <kind>2</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>

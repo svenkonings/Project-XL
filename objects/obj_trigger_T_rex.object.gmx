@@ -79,7 +79,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>distance_to_object(obj_harry)</string>
+            <string>distance_to_object(obj_ally)</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -154,6 +154,60 @@
           <argument>
             <kind>0</kind>
             <string>true</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>109</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_move_to</functionname>
+        <codestring></codestring>
+        <whoName>obj_ally</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>14432</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>4752</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>view_object[0]=-1
+view_xview[0]=14432
+view_yview[0]=4032
+view_wview[0]=1280
+view_hview[0]=960
+if global.two_p=true
+{
+    view_visible[1] = false
+    view_hport[0] = 960
+}
+</string>
           </argument>
         </arguments>
       </action>
@@ -1034,37 +1088,6 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>view_object[0]=-1
-view_xview[0]=14432
-view_yview[0]=4032
-view_wview[0]=1280
-view_hview[0]=960
-if global.two_p=true
-{view_object[1]=-1
-view_xview[1]=14432
-view_yview[1]=4032
-view_wview[1]=1280
-view_hview[1]=960}
-</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
             <string>show_message('The Tyrannosaurus Rex:
 The Tyrannosaurus Rex was a ferocious carnivore that lived at the end of the Cretaceous period (about 68-65.5 million years ago).
 Over time its head became larger and more suited to catching and crushing struggling prey.
@@ -1075,30 +1098,6 @@ Weight = 7.5-10 tons
 Diet = Carnivore
 Length = 13-17 m long')
 </string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>109</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_move_to</functionname>
-        <codestring></codestring>
-        <whoName>obj_ally</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>0</kind>
-            <string>14432</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>4752</string>
           </argument>
         </arguments>
       </action>

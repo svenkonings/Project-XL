@@ -1425,6 +1425,27 @@
     <event eventtype="4" ename="obj_wall">
       <action>
         <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>nearest = instance_nearest(x,y,obj_ally)
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
         <id>104</id>
         <kind>0</kind>
         <userelative>-1</userelative>
@@ -1501,7 +1522,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>obj_harry.x</string>
+            <string>nearest.x</string>
           </argument>
           <argument>
             <kind>0</kind>

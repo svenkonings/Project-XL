@@ -463,11 +463,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>target_distance=distance_to_object(obj_enemie)
+            <string>if !instance_exists(obj_jager)
+{instance_activate_object(obj_jager)}
 if distance_to_object(obj_jager)&gt;1
 {change=false}
 else
 {change=true}
+target_distance=distance_to_object(obj_enemie)
 nearest=instance_nearest(x,y,obj_enemie)
 </string>
           </argument>
