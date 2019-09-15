@@ -14,8 +14,6 @@
   </sounds>
   <sprites name="sprites">
     <sprites name="allies">
-      <sprite>sprites\spr_arrow_left</sprite>
-      <sprite>sprites\spr_arrow_right</sprite>
       <sprite>sprites\spr_columbusstil_left</sprite>
       <sprite>sprites\spr_columbusstil_right</sprite>
       <sprite>sprites\spr_columbuswalk_left</sprite>
@@ -26,7 +24,6 @@
       <sprite>sprites\spr_jagerstil_right</sprite>
       <sprite>sprites\spr_jagerwalk_left</sprite>
       <sprite>sprites\spr_jagerwalk_right</sprite>
-      <sprite>sprites\spr_kogel</sprite>
       <sprite>sprites\spr_kruisridderattack_left</sprite>
       <sprite>sprites\spr_kruisridderattack_right</sprite>
       <sprite>sprites\spr_kruisridderstil_left</sprite>
@@ -123,9 +120,6 @@
       <sprite>sprites\spr_triwalk_left</sprite>
       <sprite>sprites\spr_triwalk_right</sprite>
     </sprites>
-    <sprite>sprites\spr_explosie</sprite>
-    <sprite>sprites\spr_explosiegroot</sprite>
-    <sprite>sprites\spr_hangbrug</sprite>
     <sprites name="harry">
       <sprite>sprites\spr_harry</sprite>
       <sprite>sprites\spr_harry_ko</sprite>
@@ -141,7 +135,6 @@
       <sprite>sprites\spr_harryup</sprite>
       <sprite>sprites\spr_harrywalk_left</sprite>
       <sprite>sprites\spr_harrywalk_right</sprite>
-      <sprite>sprites\spr_hearth</sprite>
       <sprite>sprites\spr_kruisboog_left</sprite>
       <sprite>sprites\spr_kruisboog_right</sprite>
       <sprites name="schildpad">
@@ -150,7 +143,6 @@
         <sprite>sprites\spr_schildwalk_left</sprite>
         <sprite>sprites\spr_schildwalk_right</sprite>
       </sprites>
-      <sprite>sprites\spr_Steen</sprite>
       <sprites name="steentijd">
         <sprite>sprites\spr_steenwalk_left</sprite>
         <sprite>sprites\spr_steenwalk_right</sprite>
@@ -161,7 +153,6 @@
         <sprite>sprites\spr_steenjump_left</sprite>
         <sprite>sprites\spr_steenjump_right</sprite>
       </sprites>
-      <sprite>sprites\spr_Tijdmachine</sprite>
       <sprites name="Wo1">
         <sprite>sprites\spr_wjump_left</sprite>
         <sprite>sprites\spr_wjump_right</sprite>
@@ -173,8 +164,6 @@
         <sprite>sprites\spr_wwalk_right</sprite>
       </sprites>
     </sprites>
-    <sprite>sprites\spr_invisible</sprite>
-    <sprite>sprites\spr_kogel2</sprite>
     <sprites name="lijken">
       <sprite>sprites\spr_beerlijk</sprite>
       <sprite>sprites\spr_farmerlijk</sprite>
@@ -201,7 +190,6 @@
       <sprite>sprites\spr_steentijd</sprite>
       <sprite>sprites\spr_WO1</sprite>
     </sprites>
-    <sprite>sprites\spr_Platform</sprite>
     <sprites name="tiles">
       <sprite>sprites\spr_caste_stone</sprite>
       <sprite>sprites\spr_castle_dark</sprite>
@@ -251,7 +239,21 @@
       <sprite>sprites\spr_vine</sprite>
       <sprite>sprites\spr_water</sprite>
       <sprite>sprites\spr_Wit_blokje</sprite>
+      <sprite>sprites\spr_Platform</sprite>
     </sprites>
+    <sprites name="projectiles">
+      <sprite>sprites\spr_arrow_left</sprite>
+      <sprite>sprites\spr_arrow_right</sprite>
+      <sprite>sprites\spr_kogel</sprite>
+      <sprite>sprites\spr_kogel2</sprite>
+      <sprite>sprites\spr_Steen</sprite>
+    </sprites>
+    <sprite>sprites\spr_explosie</sprite>
+    <sprite>sprites\spr_explosiegroot</sprite>
+    <sprite>sprites\spr_hangbrug</sprite>
+    <sprite>sprites\spr_hearth</sprite>
+    <sprite>sprites\spr_invisible</sprite>
+    <sprite>sprites\spr_Tijdmachine</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bck_background0</background>
@@ -326,7 +328,6 @@
       <object>objects\obj_T_rex</object>
       <object>objects\obj_triceratops</object>
     </objects>
-    <object>objects\obj_hangbrug</object>
     <objects name="harry">
       <object>objects\obj_arrow2</object>
       <object>objects\obj_harry</object>
@@ -341,7 +342,6 @@
       <object>objects\obj_Steen</object>
       <object>objects\obj_tank</object>
     </objects>
-    <object>objects\obj_invisible</object>
     <objects name="lijken">
       <object>objects\obj_beerlijk</object>
       <object>objects\obj_farmerlijk</object>
@@ -477,6 +477,8 @@
       <object>objects\obj_trigger_holebeer</object>
       <object>objects\obj_trigger_T_rex</object>
     </objects>
+    <object>objects\obj_hangbrug</object>
+    <object>objects\obj_invisible</object>
   </objects>
   <rooms name="rooms">
     <rooms name="menu">
