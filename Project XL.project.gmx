@@ -272,14 +272,12 @@
     <script>scripts\scr_textbox.gml</script>
     <script>scripts\scr_region.gml</script>
     <script>scripts\scr_view_no_follow.gml</script>
-    <script>scripts\scr_region_2p.gml</script>
     <script>scripts\scr_view_boss_camera.gml</script>
     <script>scripts\scr_instance_deactivate_region.gml</script>
     <script>scripts\scr_instance_activate_region.gml</script>
     <script>scripts\scr_instance_activate_objects.gml</script>
     <script>scripts\scr_needs_enemyblock.gml</script>
     <script>scripts\scr_needs_invisible.gml</script>
-    <script>scripts\scr_cull_2p.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fn_message_end</font>

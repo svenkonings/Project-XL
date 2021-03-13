@@ -321,8 +321,12 @@ for (i = 7; i &gt;= 0; i -= 1)
 {
     if view_visible[1]
     {
-//        scr_region_2p(view_xview[0]-view_wview[0],view_yview[0]-view_hview[0],view_xview[0]+2*view_wview[0],view_yview[0]+2*view_hview[0],view_xview[1]-view_wview[1],view_yview[1]-view_hview[1],view_xview[1]+2*view_wview[1],view_yview[1]+2*view_hview[1]);
-        scr_cull_2p();
+        scr_region(
+            min(view_xview[0]-view_wview[0],view_xview[1]-view_wview[1]),
+            min(view_yview[0]-view_hview[0],view_yview[1]-view_hview[1]),
+            max(view_xview[0]+2*view_wview[0],view_xview[1]+2*view_wview[1]),
+            max(view_yview[0]+2*view_hview[0],view_yview[1]+2*view_hview[1])
+        );
     }
     else
     {

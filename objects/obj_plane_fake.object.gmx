@@ -106,9 +106,7 @@ Eventually, the governments of both Germany and Austria-Hungary began to lose co
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>view_object[0]=obj_plane
-view_xview[0]=1280
-view_yview[0]=960
+            <string>view_object[0]=obj_plane;
 </string>
           </argument>
         </arguments>
@@ -145,31 +143,6 @@ view_yview[0]=960
     <event eventtype="4" ename="obj_tank2">
       <action>
         <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>show_message('The first World War:
-Although both sides launched renewed offensives in 1918 in an all-or-nothing effort to win the war, both efforts failed.
-The fighting between exhausted, demoralized troops continued to plod along until the Germans lost a number of individual battles and very gradually began to fall back.
-A deadly outbreak of influenza, meanwhile, took heavy tolls on soldiers of both sides.
-Eventually, the governments of both Germany and Austria-Hungary began to lose control as both countries experienced multiple mutinies from within their military structures.')
-</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
         <id>201</id>
         <kind>0</kind>
         <userelative>-1</userelative>
@@ -184,7 +157,7 @@ Eventually, the governments of both Germany and Austria-Hungary began to lose co
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>obj_plane</object>
+            <object>obj_plane2</object>
           </argument>
           <argument>
             <kind>0</kind>
@@ -240,9 +213,7 @@ Eventually, the governments of both Germany and Austria-Hungary began to lose co
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>view_object[1]=obj_plane
-view_xview[1]=1280
-view_yview[1]=960
+            <string>view_object[1]=obj_plane2;
 </string>
           </argument>
         </arguments>

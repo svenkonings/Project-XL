@@ -197,7 +197,7 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>obj_tank</object>
+            <object>obj_tank2</object>
           </argument>
           <argument>
             <kind>0</kind>
@@ -225,9 +225,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>view_object[0]=obj_tank
-view_xview[0]=1280
-view_yview[0]=960
+            <string>view_object[1]=obj_tank2;
 </string>
           </argument>
         </arguments>
